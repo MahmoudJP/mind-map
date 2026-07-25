@@ -2,7 +2,8 @@
 
 Last reviewed: 2026-07-26
 
-- Intended GitHub visibility: Public
+- GitHub repository: `MahmoudJP/mind-map`
+- Repository visibility: Public
 - Local Git branch: `main`
 - Type: Offline static personal mind-map website
 - The Bash build completed successfully through Git Bash on Windows.
