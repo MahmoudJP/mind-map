@@ -1,6 +1,6 @@
 # Project Status
 
-Last reviewed: 2026-07-26
+Last reviewed: 2026-08-20
 
 - GitHub repository: `MahmoudJP/mind-map`
 - Repository visibility: Public
@@ -9,4 +9,7 @@ Last reviewed: 2026-07-26
 - The Bash build completed successfully through Git Bash on Windows.
 - User-created map data stays in browser localStorage and must not be committed.
 - Public-source secrets scan passed.
-- No deploy has been performed.
+- The private Studio streams the latest public `main` files through an
+  owner-authenticated, no-store route. The route stays same-origin with Studio,
+  preserving its private Redis-backed synchronization while future GitHub
+  pushes appear without copying a new snapshot into the website repository.
